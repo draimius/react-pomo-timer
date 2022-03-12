@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #1e212d;
+  color: #eabf9f;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeDisplay {
+  margin: 0;
+  padding: 0;
+  color: #009578;
+}
+.pomo {
+  font-size: 6em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  /* border: #eac09fa3 solid 1px; */
+
+  border-radius: 20px;
+  padding: 1px 50px 20px 50px;
+}
+
+.msg {
+  font-size: 0.5em;
+  min-height: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+.timeBtnContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  margin: 0px 20px 20px 20px;
+  padding: 0;
+}
+.btnContainer {
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+.timeBtn {
+  color: rgba(255, 255, 255, 0.672);
+  color: whitesmoke;
+  background-color: rgba(255, 255, 255, 0.33);
+  background-color: #009578;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+.timeBtn:hover {
+  background-color: rgba(255, 255, 255, 0.535);
+}
